@@ -1,0 +1,21 @@
+# Phase 1 build check: compiles the app for the iOS Simulator without signing.
+# The full TestFlight / App Store workflow is added in Phase 7.
+workflows:
+  ios-build-check:
+    name: NoorTime build check
+    instance_type: mac_mini_m2
+    max_build_duration: 30
+    environment:
+      xcode: latest
+    scripts:
+      - name: Install XcodeGen
+        script: brew install xcodegen
+      - name: Generate Xcode project
+        script: xcodegen generate
+      - name: Build for iOS Simulator
+        script: |
+          xcodebuild build \
+            -project NoorTime.xcodeproj \
+            -scheme NoorTime \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO

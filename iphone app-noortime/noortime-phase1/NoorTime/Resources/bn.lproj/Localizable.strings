@@ -1,0 +1,27 @@
+"app.name" = "নূরটাইম";
+
+"prayer.fajr" = "ফজর";
+"prayer.sunrise" = "সূর্যোদয়";
+"prayer.dhuhr" = "যোহর";
+"prayer.asr" = "আসর";
+"prayer.maghrib" = "মাগরিব";
+"prayer.isha" = "ইশা";
+
+"home.nextPrayer" = "পরবর্তী নামাজ";
+"home.remaining" = "বাকি";
+"home.sampleCity" = "ঢাকা, বাংলাদেশ";
+"home.locationStatus.sample" = "নমুনা অবস্থান";
+"home.sampleNotice" = "এগুলো শুধু ডিজাইন দেখার জন্য নমুনা সময়। আসল নামাজের সময়ের হিসাব পরের ধাপে যুক্ত হবে।";
+
+"notifications.status.notSetUp" = "নোটিফিকেশন: এখনো চালু হয়নি";
+"notifications.status.enabled" = "নোটিফিকেশন: চালু";
+"notifications.status.denied" = "নোটিফিকেশন: iOS সেটিংসে বন্ধ";
+
+"settings.title" = "সেটিংস";
+"settings.comingSoon" = "ভাষা, থিম, আসরের মাযহাব ও নামাজের নোটিফিকেশন এখানে আসবে।";
+"settings.about.header" = "আযানের শব্দ সম্পর্কে";
+"settings.adhanLimit" = "iOS শুধু ছোট (৩০ সেকেন্ডের কম) নোটিফিকেশন শব্দ চালাতে দেয়। আইফোন সাইলেন্ট মোডে থাকলে, কোনো ফোকাস মোড চালু থাকলে বা নোটিফিকেশন বন্ধ থাকলে শব্দ নাও বাজতে পারে।";
+"settings.privacy.header" = "গোপনীয়তা";
+"settings.privacy.body" = "নূরটাইমে কোনো অ্যাকাউন্ট বা সার্ভার নেই। আপনার অবস্থান শুধু আপনার আইফোনেই নামাজের সময় হিসাব করতে ব্যবহার হয়, কোথাও পাঠানো হয় না।";
+
+"common.done" = "সম্পন্ন";
