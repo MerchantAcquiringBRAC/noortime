@@ -1,0 +1,40 @@
+"app.name" = "নূরটাইম";
+
+"prayer.fajr" = "ফজর";
+"prayer.sunrise" = "সূর্যোদয়";
+"prayer.dhuhr" = "যোহর";
+"prayer.asr" = "আসর";
+"prayer.maghrib" = "মাগরিব";
+"prayer.isha" = "ইশা";
+
+"method.karachi" = "করাচি";
+"method.muslimWorldLeague" = "মুসলিম ওয়ার্ল্ড লীগ";
+"method.egyptian" = "মিশরীয় জেনারেল অথরিটি";
+"method.ummAlQura" = "উম্মুল কুরা";
+"method.northAmerica" = "ISNA (উত্তর আমেরিকা)";
+"method.moonsightingCommittee" = "মুনসাইটিং কমিটি";
+
+"asr.hanafi" = "হানাফি";
+"asr.shafi" = "শাফিয়ি (স্ট্যান্ডার্ড)";
+
+"home.nextPrayer" = "পরবর্তী নামাজ";
+"home.remaining" = "বাকি";
+"home.tomorrow" = "আগামীকাল";
+"home.locationStatus.default" = "ডিফল্ট শহর";
+"home.method.note" = "সময়গুলো শহরের অবস্থান থেকে হিসাব করা হয়েছে। এটি সরকারি সময়সূচি নয়। অনুগ্রহ করে স্থানীয় মসজিদের সময়ের সাথে মিলিয়ে নিন।";
+"home.error.title" = "নামাজের সময় হিসাব করা যায়নি";
+"home.error.body" = "এই অবস্থানের জন্য নামাজের সময় হিসাব করা সম্ভব হয়নি। আবার চেষ্টা করুন।";
+"home.error.retry" = "আবার চেষ্টা করুন";
+
+"notifications.status.notSetUp" = "নোটিফিকেশন: এখনো চালু হয়নি";
+"notifications.status.enabled" = "নোটিফিকেশন: চালু";
+"notifications.status.denied" = "নোটিফিকেশন: iOS সেটিংসে বন্ধ";
+
+"settings.title" = "সেটিংস";
+"settings.comingSoon" = "ভাষা, থিম, আসরের মাযহাব ও নামাজের নোটিফিকেশন এখানে আসবে।";
+"settings.about.header" = "আযানের শব্দ সম্পর্কে";
+"settings.adhanLimit" = "iOS শুধু ছোট (৩০ সেকেন্ডের কম) নোটিফিকেশন শব্দ চালাতে দেয়। আইফোন সাইলেন্ট মোডে থাকলে, কোনো ফোকাস মোড চালু থাকলে বা নোটিফিকেশন বন্ধ থাকলে শব্দ নাও বাজতে পারে।";
+"settings.privacy.header" = "গোপনীয়তা";
+"settings.privacy.body" = "নূরটাইমে কোনো অ্যাকাউন্ট বা সার্ভার নেই। আপনার অবস্থান শুধু আপনার আইফোনেই নামাজের সময় হিসাব করতে ব্যবহার হয়, কোথাও পাঠানো হয় না।";
+
+"common.done" = "সম্পন্ন";

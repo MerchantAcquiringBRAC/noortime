@@ -1,0 +1,12 @@
+[
+  { "id": "dhaka",      "nameEn": "Dhaka",       "nameBn": "ঢাকা",        "countryCode": "BD", "latitude": 23.8103, "longitude": 90.4125, "timeZoneIdentifier": "Asia/Dhaka" },
+  { "id": "chattogram", "nameEn": "Chattogram",  "nameBn": "চট্টগ্রাম",    "countryCode": "BD", "latitude": 22.3569, "longitude": 91.7832, "timeZoneIdentifier": "Asia/Dhaka" },
+  { "id": "sylhet",     "nameEn": "Sylhet",      "nameBn": "সিলেট",       "countryCode": "BD", "latitude": 24.8949, "longitude": 91.8687, "timeZoneIdentifier": "Asia/Dhaka" },
+  { "id": "rajshahi",   "nameEn": "Rajshahi",    "nameBn": "রাজশাহী",     "countryCode": "BD", "latitude": 24.3745, "longitude": 88.6042, "timeZoneIdentifier": "Asia/Dhaka" },
+  { "id": "khulna",     "nameEn": "Khulna",      "nameBn": "খুলনা",       "countryCode": "BD", "latitude": 22.8456, "longitude": 89.5403, "timeZoneIdentifier": "Asia/Dhaka" },
+  { "id": "barishal",   "nameEn": "Barishal",    "nameBn": "বরিশাল",      "countryCode": "BD", "latitude": 22.7010, "longitude": 90.3535, "timeZoneIdentifier": "Asia/Dhaka" },
+  { "id": "rangpur",    "nameEn": "Rangpur",     "nameBn": "রংপুর",       "countryCode": "BD", "latitude": 25.7439, "longitude": 89.2752, "timeZoneIdentifier": "Asia/Dhaka" },
+  { "id": "mymensingh", "nameEn": "Mymensingh",  "nameBn": "ময়মনসিংহ",   "countryCode": "BD", "latitude": 24.7471, "longitude": 90.4203, "timeZoneIdentifier": "Asia/Dhaka" },
+  { "id": "cumilla",    "nameEn": "Cumilla",     "nameBn": "কুমিল্লা",     "countryCode": "BD", "latitude": 23.4607, "longitude": 91.1809, "timeZoneIdentifier": "Asia/Dhaka" },
+  { "id": "coxsbazar",  "nameEn": "Cox's Bazar", "nameBn": "কক্সবাজার",    "countryCode": "BD", "latitude": 21.4272, "longitude": 92.0058, "timeZoneIdentifier": "Asia/Dhaka" }
+]

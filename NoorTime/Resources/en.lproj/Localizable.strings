@@ -1,0 +1,40 @@
+"app.name" = "NoorTime";
+
+"prayer.fajr" = "Fajr";
+"prayer.sunrise" = "Sunrise";
+"prayer.dhuhr" = "Dhuhr";
+"prayer.asr" = "Asr";
+"prayer.maghrib" = "Maghrib";
+"prayer.isha" = "Isha";
+
+"method.karachi" = "Karachi";
+"method.muslimWorldLeague" = "Muslim World League";
+"method.egyptian" = "Egyptian General Authority";
+"method.ummAlQura" = "Umm al-Qura";
+"method.northAmerica" = "ISNA (North America)";
+"method.moonsightingCommittee" = "Moonsighting Committee";
+
+"asr.hanafi" = "Hanafi";
+"asr.shafi" = "Shafi'i (Standard)";
+
+"home.nextPrayer" = "Next prayer";
+"home.remaining" = "remaining";
+"home.tomorrow" = "Tomorrow";
+"home.locationStatus.default" = "Default city";
+"home.method.note" = "Times are calculated from the city's location. They are not an official timetable. Please confirm with your local mosque.";
+"home.error.title" = "Could not calculate prayer times";
+"home.error.body" = "Prayer times could not be calculated for this location. Please try again.";
+"home.error.retry" = "Try again";
+
+"notifications.status.notSetUp" = "Notifications: not set up yet";
+"notifications.status.enabled" = "Notifications: on";
+"notifications.status.denied" = "Notifications: off in iOS Settings";
+
+"settings.title" = "Settings";
+"settings.comingSoon" = "Language, theme, Asr school and prayer notifications will appear here.";
+"settings.about.header" = "About Adhan sound";
+"settings.adhanLimit" = "iOS only allows short notification sounds (under 30 seconds). The sound may not play if your iPhone is on Silent mode, a Focus mode is active, or notifications are turned off.";
+"settings.privacy.header" = "Privacy";
+"settings.privacy.body" = "NoorTime has no account and no server. Your location is used only on your iPhone to calculate prayer times and is never sent anywhere.";
+
+"common.done" = "Done";
