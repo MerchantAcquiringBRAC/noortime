@@ -1,0 +1,29 @@
+# Phase 2 build: compiles the app, then runs the unit tests on an iOS Simulator (no signing needed).
+# The full TestFlight / App Store workflow is added in Phase 7.
+workflows:
+  ios-build-and-test:
+    name: NoorTime build and test
+    instance_type: mac_mini_m2
+    max_build_duration: 45
+    environment:
+      xcode: latest
+    scripts:
+      - name: Install XcodeGen
+        script: brew install xcodegen
+      - name: Generate Xcode project
+        script: xcodegen generate
+      - name: Pick an available iPhone simulator
+        script: |
+          xcrun simctl list devices available | grep "iPhone" | tail -1
+          DEVICE_ID=$(xcrun simctl list devices available | grep "iPhone" | tail -1 | grep -oE '[0-9A-F]{8}-([0-9A-F]{4}-){3}[0-9A-F]{12}')
+          echo "Using simulator: $DEVICE_ID"
+          test -n "$DEVICE_ID"
+          echo "export DEVICE_ID=$DEVICE_ID" > "$CM_BUILD_DIR/device_id.sh"
+      - name: Build and run unit tests
+        script: |
+          source "$CM_BUILD_DIR/device_id.sh"
+          xcodebuild test \
+            -project NoorTime.xcodeproj \
+            -scheme NoorTime \
+            -destination "id=$DEVICE_ID" \
+            CODE_SIGNING_ALLOWED=NO
